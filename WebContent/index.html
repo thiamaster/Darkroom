@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Login de usuário</title>
+  </head>
+  <body bgcolor="#ffffff">
+  		<fieldset style="width:200px; margin: 0 auto;">
+  			<legend>Login</legend>
+  			<form name="userlogin" method="post" action="MainController">
+		  		<input type="hidden" name="command" value="Login"/>
+		  		<div>
+			  		Usuário:
+		  		</div>
+		  		<div style="width: 100%; margin-left: 10%">	
+		  			<input name = "username" id = "username" placeholder="Insira seu nome de usuário" style="width:90%"/>
+		  		</div>
+		  		<div>
+			  		Senha: 
+		  		</div>
+		  		<div style="width: 100%; margin-left: 10%">
+		  			<input type="password" name = "password" id = "password" style="width:90%"/>
+		  		</div>	
+		  		<br />
+		  		<div style="text-align: center">
+		  			<input type="submit" value="Enviar" />
+		  		</div>
+		  	</form>
+  		</fieldset>
+  		
+  		<fieldset style="width:200px; margin: 0 auto;">
+  			<legend>Cadastro</legend>
+  			<form name="userlogin" method="post" action="MainController">
+		  		<input type="hidden" name="command" value="Register"/>
+		  		<div>
+			  		Usuário:
+		  		</div>
+		  		<div style="width: 100%; margin-left: 10%">	
+		  			<input name = "username" id = "username" placeholder="Insira seu nome de usuário" style="width:90%"/>
+		  		</div>
+		  		<div>
+			  		Senha: 
+		  		</div>
+		  		<div style="width: 100%; margin-left: 10%">
+		  			<input type="password" name = "password" id = "password" style="width:90%"/>
+		  		</div>	
+		  		<br />
+		  		<div style="text-align: center">
+		  			<input type="submit" value="Enviar" />
+		  		</div>
+		  	</form>
+  		</fieldset>
+  </body>
+</html>
