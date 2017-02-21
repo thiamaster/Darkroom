@@ -14,7 +14,7 @@ import br.com.darkroom.repository.Repository;
 public class UserDAO {
 	EntityManager emD;
 	
-	public UserDAO(){
+	public UserDAO(){asd
 		emD = Repository.getEntityManagerMDarkroomDB();
 	}
 	
